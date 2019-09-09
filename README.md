@@ -1,5 +1,7 @@
 # airtable-netlify-short-urls
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ede511fe-0582-4e1a-a0c3-4ad47c2788d3/deploy-status)](https://app.netlify.com/sites/hhg-shortener/deploys)
+
 This is a simple short-url service that works with
 [netlify functions](https://www.netlify.com/docs/functions/) and uses
 [airtable](https://airtable.com).

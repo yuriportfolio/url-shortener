@@ -10,6 +10,7 @@ let fakeCache = {}
 const bustCache = () => (fakeCache = {})
 
 exports.handler = async (event, context) => {
+  console.log('=======>>> function executed!!!!');
   // just something for grouping the netlify logs for this run together
   const runId = Date.now()
     .toString()
