@@ -13,7 +13,7 @@
   force = true
 
 [[redirects]]
-  from = "/:code"
+  from = "/*"
   to = "/.netlify/functions/redirect/:code"
   status = 200
   force = true
