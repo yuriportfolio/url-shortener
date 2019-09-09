@@ -19,6 +19,9 @@ exports.handler = async (event, context) => {
   const {host = ''} = event.headers
   log(`Request coming to "${event.path}"`)
   const [, code] = event.path.match(/^.*?redirect\/?(.*)$/) || [event.path, '']
+
+  console.log("TCL: -> code", code)
+
   if (!code) {
     log(`no code provided`)
     return getResponse({statusCode: 301})
