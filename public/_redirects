@@ -1,0 +1,3 @@
+/               /.netlify/functions/redirect
+/*              /.netlify/functions/redirect/:splat
+/robots.txt     /static/robots.txt
