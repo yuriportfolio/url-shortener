@@ -7,13 +7,7 @@
   to = "/.netlify/functions/redirect"
 
 [[redirects]]
-  from = "/robots.txt"
-  to = "/static/robots.txt"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/*"
+  from = "/:code"
   to = "/.netlify/functions/redirect/:code"
   status = 200
   force = true
