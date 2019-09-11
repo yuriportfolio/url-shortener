@@ -4,6 +4,7 @@
   "private": true,
   "description": "URL shortener with netlify redirects",
   "main": "index.js",
+  "baseUrl": "https://hhg.link",
   "scripts": {
     "shorten": "netlify-shortener"
   },
