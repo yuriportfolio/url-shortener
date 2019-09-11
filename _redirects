@@ -1,3 +1,13 @@
-/               /.netlify/functions/redirect
-/*              /.netlify/functions/redirect/:splat
-/robots.txt     /static/robots.txt
+/youtube                     https://www.youtube.com/channel/UC-MHIQayBciRoA4HXx873jg/videos?view_as=subscriber
+/gatsby-1                    https://www.youtube.com/watch?v=eaTcBsSuS3k
+/talks                       https://github.com/horacioh/horacio_speaks
+/cv                          https://github.com/horacioh/my_cv
+/ama                         https://github.com/horacioh/ama/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aopen
+/stream                      https://twitch.tv/horacioh
+/twitter                     https://twitter.com/hhg2288
+/kent-video                  /fix-netlify-error
+/netlify-redirect-error      /fix-netlify-error
+/netlify-redirect-solution   https://www.youtube.com/watch?v=HL6paXyx6hM
+
+
+/*                           https://horacioh.com

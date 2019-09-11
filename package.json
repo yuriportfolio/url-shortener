@@ -1,12 +1,11 @@
 {
-  "name": "airtable-netlify-short-urls",
+  "name": "url-shortener",
   "version": "1.0.0",
   "private": true,
-  "description": "URL shortener with an airtable backend",
+  "description": "URL shortener with netlify redirects",
   "main": "index.js",
   "scripts": {
-    "dev": "netlify-lambda serve functions",
-    "build": "netlify-lambda build functions"
+    "shorten": "netlify-shortener"
   },
   "keywords": [],
   "author": {
@@ -15,12 +14,7 @@
     "url": "https://horacioh.com"
   },
   "license": "MIT",
-  "devDependencies": {
-    "copy-paste": "^1.3.0",
-    "netlify-lambda": "^1.6.3"
-  },
   "dependencies": {
-    "airtable": "^0.5.8",
-    "dotenv": "^6.1.0"
+    "netlify-shortener": "^1.0.4"
   }
 }
